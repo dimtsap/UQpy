@@ -63,7 +63,7 @@ steps:
 
   - bash: |
       source activate myEnvironment
-      conda build . --python=$(pythonVersion) --variants "{version: [$(GitVersion.SemVer)]}"
+      conda build .
       #recipe --variants "{'version': ['0.0.1']}"
     displayName: Build Noarch conda packages
     condition: eq(variables['Build.SourceBranch'], 'refs/heads/master')
