@@ -1,13 +1,10 @@
 package:
   name: uqpy
-  version: {{ version }}
+  version: 3.2.1
 
 build:
   noarch: python
   number: 0
-
-source:
-  path: ./src
 
 requirements:
   host:
