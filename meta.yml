@@ -6,6 +6,9 @@ build:
   noarch: python
   number: 0
 
+source:
+  path: ./src
+
 requirements:
   host:
     - python
