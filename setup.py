@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+pipVersion = pkg_resources.require("pip")[0].version
+setuptoolsVersion = pkg_resources.require("setuptools")[0].version
 import sys
 if not sys.argv:
     version = '3.0.0'
