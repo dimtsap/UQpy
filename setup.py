@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 import sys
+if not sys.argv:
+    version = '3.0.0'
+else:
+    version = sys.argv[1] 
+    del sys.argv[1]
 from setuptools import setup, find_packages
 
 setup(
