@@ -1,8 +1,8 @@
 #!/usr/bin/env python
-pipVersion = pkg_resources.require("pip")[0].version
-setuptoolsVersion = pkg_resources.require("setuptools")[0].version
-print("\n PIP Version", pipVersion, "\n")
-print("\n Setuptools Version", setuptoolsVersion, "\n")
+#pipVersion = pkg_resources.require("pip")[0].version
+#setuptoolsVersion = pkg_resources.require("setuptools")[0].version
+#print("\n PIP Version", pipVersion, "\n")
+#print("\n Setuptools Version", setuptoolsVersion, "\n")
 
 import sys
 if not sys.argv:
