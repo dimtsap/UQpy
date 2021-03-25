@@ -12,11 +12,8 @@ setup(
     license='MIT',
     platforms=["OSX", "Windows", "Linux"],
     packages=find_packages("src"),
-    package_dir={"": "src"},
+    package_dir={"": "../src"},
     package_data={"": ["*.pdf"]},
-    install_requires=[
-        "numpy", "scipy", "matplotlib", "scikit-learn", 'fire'
-    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'Intended Audience :: Science/Research',
