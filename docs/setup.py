@@ -12,8 +12,7 @@ setup(
     license='MIT',
     platforms=["OSX", "Windows", "Linux"],
     packages=find_packages("src"),
-    package_dir={"": "../src"},
-    package_data={"": ["*.pdf"]},
+    package_dir={"..": "src"},
     classifiers=[
         'Programming Language :: Python :: 3',
         'Intended Audience :: Science/Research',
